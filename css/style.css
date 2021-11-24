@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	font-weight: bolder;
+}
+
+.navigation ul {
+	display: flex;
+}
+
+.navigation ul li {
+	list-style: none;
+	padding: 10px;
+}
+
+.right {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.right img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-left: 15px;
+}
+
+.content {
+	display: flex;
+}
+
+.images {
+	flex: 1;
+	padding: 20px;
+}
+
+.sub-images {
+	display: flex;
+	justify-content: center;
+}
+
+.sub-images img {
+	width: 150px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+.description {
+	flex:1;
+	padding: 20px;
+}
+
+.btn {
+	background-color: orange;
+	color: #fff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+
+#img1:active, #img2:active, #img3:active, #img4:active {
+	border: 3px solid orange;
+	opacity: 0.6;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover {
+	border: 3px solid orange;
+	opacity: 0.6;
+}
+
+#main-image {
+	border-radius: 20px;
+}
